@@ -743,7 +743,7 @@
         </a>
         <span class="live-badge">
           <span class="live-dot"></span>
-          <span id="status-text">hippocampus.online</span>
+          <span id="status-text" data-i18n="statusNight">Ready · Night</span>
         </span>
       </div>
 
@@ -764,22 +764,22 @@
           <div class="eyebrow">
             <span>ἀναγωγή</span>
             <span>·</span>
-            <span data-i18n="eyebrow">Open-Source AI Collective</span>
+            <span data-i18n="eyebrow">Anagoge · Open-Source AI Lab</span>
           </div>
           <h1>
-            <em data-i18n="h1Em">Ascending</em><br />
-            <span data-i18n="h1Main">Intelligence.</span>
+            <span data-i18n="h1Top">From signal</span><br />
+            <em data-i18n="h1Em">to insight.</em>
           </h1>
           <p class="lead" data-i18n="lead">
-            Grounded like a hippo, wired like a hippocampus, aiming upward. Building open-source AI memory, agentic runtimes, and higher-order reasoning tools.
+            An open-source lab building AI memory, agentic runtimes, and tools that turn raw execution traces into durable understanding.
           </p>
 
           <div class="hero-actions">
             <a class="cta-primary" href="https://github.com/anagogesi" target="_blank" rel="noopener">
-              <span data-i18n="ctaGh">Explore github.com/anagogesi</span> →
+              <span data-i18n="ctaGh">Explore GitHub</span> →
             </a>
             <button id="dream-btn" class="cta-ghost" type="button">
-              ✦ <span data-i18n="ctaDream">Consolidate Memory</span>
+              ✦ <span data-i18n="ctaDream">Run Dream Cycle</span>
             </button>
           </div>
         </div>
@@ -787,15 +787,15 @@
         <div class="elevation-panel">
           <div class="elevation-header">
             <span data-i18n="elevLabel">ABSTRACTION DEPTH</span>
-            <span id="elev-code">LVL 03 / ANAGOGE</span>
+            <span id="elev-code">STAGE 03 / INSIGHT</span>
           </div>
           <div class="seg-control" role="tablist">
-            <button class="seg-btn" data-step="1" type="button">01 · Signals</button>
-            <button class="seg-btn" data-step="2" type="button">02 · Hippocampus</button>
-            <button class="seg-btn active" data-step="3" type="button">03 · Anagoge</button>
+            <button class="seg-btn" data-step="1" type="button" data-i18n="seg1">01 · Trace</button>
+            <button class="seg-btn" data-step="2" type="button" data-i18n="seg2">02 · Memory</button>
+            <button class="seg-btn active" data-step="3" type="button" data-i18n="seg3">03 · Insight</button>
           </div>
           <p id="step-desc" class="elevation-desc" data-i18n="step3Desc">
-            Distilling noisy execution trajectories into composable skills, abstractions, and clear judgment.
+            Anagoge — distilled patterns, reusable skills, and sharper reasoning.
           </p>
         </div>
       </div>
@@ -803,8 +803,8 @@
       <!-- Interactive Hippo Observatory -->
       <div class="bento-card observatory">
         <div class="obs-hud">
-          <span>OBS // HIPPO-01</span>
-          <span id="coords-hud">AZ 042° · EL +34°</span>
+          <span>MASCOT · HIPPO</span>
+          <span id="coords-hud">STAGE 03 · INSIGHT</span>
         </div>
 
         <div class="hippo-stage">
@@ -868,8 +868,8 @@
         </div>
 
         <div class="obs-footer">
-          <span id="toast" data-i18n="toastInit">click hippo · press 1-3 · type "manta"</span>
-          <span style="color:var(--dim);">SVG/01</span>
+          <span id="toast" data-i18n="toastInit">Click Hippo or ripples · ⌘K for easter eggs</span>
+          <span style="color:var(--dim);">anagoge.si</span>
         </div>
       </div>
     </section>
@@ -881,12 +881,12 @@
         <div class="tile-inner">
           <div>
             <div class="tile-meta">
-              <span>01 // MEMORY CONSOLIDATION</span>
-              <span id="graph-stat">14 nodes · 3 clusters</span>
+              <span>01 // MEMORY GRAPH</span>
+              <span id="graph-stat" data-i18n="graphStat">14 nodes · 3 insight stars</span>
             </div>
-            <h3 class="tile-title" data-i18n="graphTitle">Live Hippocampus Graph</h3>
+            <h3 class="tile-title" data-i18n="graphTitle">How fragments rise into insight</h3>
             <p class="tile-body" data-i18n="graphDesc">
-              Hover or click nodes to link raw traces upward into distilled insight. Run Dream Mode to compress fragments.
+              Blue nodes are raw traces; amber stars above are distilled patterns. Move your cursor to link them, or click to pulse.
             </p>
           </div>
           <canvas id="memory-canvas"></canvas>
@@ -898,20 +898,20 @@
         <div class="tile-inner">
           <div>
             <div class="tile-meta">
-              <span>02 // PHILOSOPHY &amp; TRIGGERS</span>
-              <span>SI · 2026</span>
+              <span>02 // NAME &amp; MASCOT</span>
+              <span>github.com/anagogesi</span>
             </div>
-            <h3 class="tile-title" data-i18n="loreTitle">Why a Stargazing Hippo?</h3>
+            <h3 class="tile-title" data-i18n="loreTitle">Why Anagoge &amp; a Hippo?</h3>
             <p class="tile-body" data-i18n="loreBody">
-              Anagoge means leading upward from literal tokens to deeper insight. Hippo nods to the brain's hippocampus—grounded in solid engineering, always looking up.
+              Anagoge (ἀναγωγή) means "leading upward"—seeing structure beyond surface tokens. Our hippo nods to the brain's hippocampus: steady in deep water, always looking up.
             </p>
           </div>
 
           <div class="chip-row">
-            <button class="mini-chip" id="chip-dream" type="button">zzZ dream()</button>
-            <button class="mini-chip" id="chip-manta" type="button">✦ summon_manta()</button>
-            <button class="mini-chip" id="chip-pet" type="button">boop(hippo)</button>
-            <button class="mini-chip" id="chip-cmd" type="button">⌘K palette</button>
+            <button class="mini-chip" id="chip-dream" type="button" data-i18n="chipDream">Sleep Cycle (dream)</button>
+            <button class="mini-chip" id="chip-manta" type="button" data-i18n="chipManta">Manta Easter Egg</button>
+            <button class="mini-chip" id="chip-pet" type="button" data-i18n="chipPet">Say Hi to Hippo</button>
+            <button class="mini-chip" id="chip-cmd" type="button" data-i18n="chipCmd">⌘K Commands</button>
           </div>
         </div>
       </div>
@@ -940,61 +940,81 @@
       const i18n = {
         en: {
           cmdLabel: "Command",
-          eyebrow: "Open-Source AI Collective",
-          h1Em: "Ascending",
-          h1Main: "Intelligence.",
-          lead: "Grounded like a hippo, wired like a hippocampus, aiming upward. Building open-source AI memory, agentic runtimes, and higher-order reasoning tools.",
-          ctaGh: "Explore github.com/anagogesi",
-          ctaDream: "Consolidate Memory",
+          statusNight: "Ready · Night",
+          statusDay: "Ready · Day",
+          statusDream: "Consolidating...",
+          eyebrow: "Anagoge · Open-Source AI Lab",
+          h1Top: "From signal",
+          h1Em: "to insight.",
+          lead: "An open-source lab building AI memory, agentic runtimes, and tools that turn raw execution traces into durable understanding.",
+          ctaGh: "Explore GitHub",
+          ctaDream: "Run Dream Cycle",
           elevLabel: "ABSTRACTION DEPTH",
-          step1Desc: "Raw signals — logs, traces, and unrefined fragments waiting beneath the surface.",
-          step2Desc: "Hippocampus — linking episodic memory, context, and patterns across sessions without noise.",
-          step3Desc: "Distilling noisy execution trajectories into composable skills, abstractions, and clear judgment.",
-          toastInit: 'click hippo · press 1-3 · type "manta"',
-          graphTitle: "Live Hippocampus Graph",
-          graphDesc: "Hover or click nodes to link raw traces upward into distilled insight. Run Dream Mode to compress fragments.",
-          loreTitle: "Why a Stargazing Hippo?",
-          loreBody: "Anagoge means leading upward from literal tokens to deeper insight. Hippo nods to the brain's hippocampus—grounded in solid engineering, always looking up.",
+          seg1: "01 · Trace",
+          seg2: "02 · Memory",
+          seg3: "03 · Insight",
+          step1Desc: "Raw dialogue, tool calls, and logs before structure.",
+          step2Desc: "Episodic links formed across sessions — keeping what matters.",
+          step3Desc: "Anagoge — distilled patterns, reusable skills, and sharper reasoning.",
+          toastInit: 'Click Hippo or ripples · ⌘K for easter eggs',
+          graphStat: "14 nodes · 3 insight stars",
+          graphTitle: "How fragments rise into insight",
+          graphDesc: "Blue nodes are raw traces; amber stars above are distilled patterns. Move your cursor to link them, or click to pulse.",
+          loreTitle: "Why Anagoge & a Hippo?",
+          loreBody: 'Anagoge (ἀναγωγή) means "leading upward"—seeing structure beyond surface tokens. Our hippo nods to the brain\'s hippocampus: steady in deep water, always looking up.',
+          chipDream: "Sleep Cycle (dream)",
+          chipManta: "Manta Easter Egg",
+          chipPet: "Say Hi to Hippo",
+          chipCmd: "⌘K Commands",
           footerTag: "OPEN-SOURCE AI RESEARCH & TOOLING",
           footerHint: 'press ⌘K or type "manta"',
           petMsgs: [
-            "hippocampus consolidating memories...",
-            "boop! +1 higher-order insight",
-            "stay grounded, look upward ✦",
-            "hint: press ⌘K or type 'manta'",
-            "0% corporate fluff · 100% open source"
+            "Consolidating recent context...",
+            "Quietly indexing memories.",
+            "Steady in deep water, looking up.",
+            'Try typing "manta" or "dream".'
           ],
-          dreamMsg: "zzZ... consolidating fragments into insight",
-          mantaMsg: "wild manta ray glided across the sky ✦"
+          dreamMsg: "zzZ... compressing traces into insight",
+          mantaMsg: "A Manta Ray glided across the sky ✦"
         },
         zh: {
           cmdLabel: "指令面板",
-          eyebrow: "开源 AI 研究与工具组织",
-          h1Em: "升维的",
-          h1Main: "智能底座。",
-          lead: "底座像河马一样稳重，联结像海马体一样敏锐，目光始终向上。专注 AI 记忆、Agent 运行时与高维推理开源工具。",
-          ctaGh: "访问 github.com/anagogesi",
-          ctaDream: "整理海马体记忆",
+          statusNight: "运行中 · 夜间",
+          statusDay: "运行中 · 日间",
+          statusDream: "记忆整理中...",
+          eyebrow: "Anagoge · 开源 AI 实验室",
+          h1Top: "从信号",
+          h1Em: "到洞察。",
+          lead: "专注 AI 记忆、Agent 运行时与高维推理的开源实验室——把零散的执行轨迹沉淀为长期可用的理解。",
+          ctaGh: "前往 GitHub 组织",
+          ctaDream: "运行整理周期",
           elevLabel: "抽象升维层级",
-          step1Desc: "第一阶 · 原始信号：潜伏在深水中的对话碎片、运行日志与上下文流。",
-          step2Desc: "第二阶 · 海马体联结：跨会话关联记忆与规律，在遗忘与保留之间提纯信号。",
-          step3Desc: "第三阶 · Anagoge 升维：将具体试错轨迹提炼为可复用 Skill、抽象原则与清晰判断。",
-          toastInit: "点河马 · 按 1-3 · 盲打 manta",
-          graphTitle: "实时海马体记忆星图",
-          graphDesc: "移动光标或点击节点连结碎片，触发 Dream 模式把零散轨迹压缩升维成星标洞察。",
-          loreTitle: "为什么是仰望星空的河马？",
-          loreBody: "Anagoge 意为“向上引领、超越表象”；Hippo 既是稳重的河马，也谐音大脑记忆中枢海马体（Hippocampus）。",
+          seg1: "01 · 原始轨迹",
+          seg2: "02 · 海马体记忆",
+          seg3: "03 · 升维洞察",
+          step1Desc: "第一阶 · 原始轨迹：对话记录、工具调用与尚未整理的日志流。",
+          step2Desc: "第二阶 · 海马体联结：跨会话建立记忆关联，保留关键经验、滤除噪音。",
+          step3Desc: "第三阶 · Anagoge 升维：将经验凝练为可复用的 Skill 与更清晰的推理判断。",
+          toastInit: "点击河马或水波 · 按 ⌘K 探索彩蛋",
+          graphStat: "14 个节点 · 3 颗洞察星",
+          graphTitle: "记忆碎片如何升维",
+          graphDesc: "蓝色节点代表原始碎片，上方金色星点是提纯后的规律。移动鼠标可建立连结，点击画布触发整理脉冲。",
+          loreTitle: "为什么叫 Anagoge，吉祥物是河马？",
+          loreBody: "Anagoge 源自古希腊语“向上引领”，意为透过表象看到深层结构；吉祥物河马（Hippo）既代表稳重底座，也谐音大脑记忆中枢海马体（Hippocampus）。",
+          chipDream: "记忆整理 (dream)",
+          chipManta: "魔鬼鱼彩蛋",
+          chipPet: "戳一下河马",
+          chipCmd: "⌘K 指令",
           footerTag: "开源 AI 研究与工程工具",
           footerHint: "按 ⌘K 打开面板 · 或盲打 manta",
           petMsgs: [
-            "海马体正在悄悄整理记忆...",
-            "摸头成功 · 洞察力 +1 ✦",
+            "正在悄悄整理上下文...",
+            "安静索引长期记忆中。",
             "脚踩深水，抬头看星。",
-            "试试按 ⌘K 或盲打 manta",
-            "0% 企业套话 · 100% 开源精神"
+            "试试盲打 manta 或 dream。"
           ],
-          dreamMsg: "zzZ... 正在做梦压缩记忆碎片",
-          mantaMsg: "隐藏魔鬼鱼顺着星流滑翔过去了 ✦"
+          dreamMsg: "zzZ... 正在将碎片压缩为高阶规律",
+          mantaMsg: "魔鬼鱼顺着星空滑翔过去了 ✦"
         }
       };
 
@@ -1019,7 +1039,16 @@
       const coordsHudEl = document.getElementById("coords-hud");
       const mantaFlyer = document.getElementById("manta-flyer");
 
-      const stepNames = { 1: "LVL 01 / SIGNALS", 2: "LVL 02 / HIPPOCAMPUS", 3: "LVL 03 / ANAGOGE" };
+      const stepNames = { 1: "STAGE 01 / TRACE", 2: "STAGE 02 / MEMORY", 3: "STAGE 03 / INSIGHT" };
+
+      function syncStatusText() {
+        if (isDreaming) {
+          statusTextEl.textContent = i18n[lang].statusDream;
+        } else {
+          const isDark = htmlEl.getAttribute("data-theme") === "dark";
+          statusTextEl.textContent = isDark ? i18n[lang].statusNight : i18n[lang].statusDay;
+        }
+      }
 
       function applyLang(nextLang) {
         lang = nextLang;
@@ -1028,6 +1057,7 @@
           const k = el.getAttribute("data-i18n");
           if (dict[k]) el.textContent = dict[k];
         });
+        syncStatusText();
         setStep(currentStep, true);
         renderPalette("");
       }
@@ -1044,6 +1074,7 @@
         hippoGroup.style.transform = `translateY(${yOffset}px)`;
         stepDescEl.textContent = i18n[lang][`step${currentStep}Desc`];
         elevCodeEl.textContent = stepNames[currentStep];
+        coordsHudEl.textContent = stepNames[currentStep].replace(" / ", " · ");
         if (!silent) spawnBubbles(2);
       }
 
@@ -1065,7 +1096,7 @@
       function toggleTheme() {
         const next = htmlEl.getAttribute("data-theme") === "dark" ? "light" : "dark";
         htmlEl.setAttribute("data-theme", next);
-        statusTextEl.textContent = next === "dark" ? "hippocampus.online" : "daylight.mode";
+        syncStatusText();
         spawnBubbles(3);
       }
 
@@ -1089,7 +1120,7 @@
         eyesOpen.style.display = "none";
         eyesHappy.style.display = "inline";
         hippoGroup.style.transform = "translateY(38px)";
-        statusTextEl.textContent = "dream.consolidating()";
+        syncStatusText();
         toastEl.textContent = i18n[lang].dreamMsg;
         spawnBubbles(6);
         pulseMemoryCluster();
@@ -1098,7 +1129,7 @@
           eyesOpen.style.display = "inline";
           eyesHappy.style.display = "none";
           setStep(currentStep, true);
-          statusTextEl.textContent = htmlEl.getAttribute("data-theme") === "dark" ? "hippocampus.online" : "daylight.mode";
+          syncStatusText();
         }, 2800);
       }
 
@@ -1117,10 +1148,6 @@
           card.style.setProperty("--mx", `${e.clientX - r.left}px`);
           card.style.setProperty("--my", `${e.clientY - r.top}px`);
         });
-
-        const az = Math.round((e.clientX / window.innerWidth) * 360);
-        const el = Math.round(90 - (e.clientY / window.innerHeight) * 90);
-        coordsHudEl.textContent = `AZ ${String(az).padStart(3, "0")}° · EL +${String(Math.max(0, el)).padStart(2, "0")}°`;
 
         if (isDreaming) return;
         const rect = document.getElementById("hippo-svg").getBoundingClientRect();
@@ -1291,13 +1318,13 @@
       const cmdList = document.getElementById("cmd-list");
 
       const commands = [
-        { key: "dream", label: "Run Hippocampus Dream Consolidation", labelZh: "运行海马体记忆整理 (Dream)", action: triggerDream },
+        { key: "dream", label: "Run Memory Consolidation (Dream)", labelZh: "运行记忆整理周期 (Dream)", action: triggerDream },
         { key: "manta", label: "Summon Hidden Manta Ray", labelZh: "召唤隐藏魔鬼鱼彩蛋", action: triggerManta },
-        { key: "theme", label: "Toggle Dark / Daylight Theme", labelZh: "切换深色观星 / 浅色日间模式", action: toggleTheme },
+        { key: "theme", label: "Toggle Night / Day Theme", labelZh: "切换夜间星空 / 日间模式", action: toggleTheme },
         { key: "lang", label: "Switch Language (EN / 中文)", labelZh: "切换中英文 (EN / 中文)", action: () => applyLang(lang === "en" ? "zh" : "en") },
-        { key: "1", label: "Elevation Level 01 · Raw Signals", labelZh: "切换到第一阶 · 原始信号", action: () => setStep(1) },
-        { key: "2", label: "Elevation Level 02 · Hippocampus", labelZh: "切换到第二阶 · 海马体联结", action: () => setStep(2) },
-        { key: "3", label: "Elevation Level 03 · Anagoge", labelZh: "切换到第三阶 · 升维洞察", action: () => setStep(3) },
+        { key: "1", label: "Stage 01 · Trace", labelZh: "第一阶 · 原始轨迹", action: () => setStep(1) },
+        { key: "2", label: "Stage 02 · Memory", labelZh: "第二阶 · 海马体记忆", action: () => setStep(2) },
+        { key: "3", label: "Stage 03 · Insight", labelZh: "第三阶 · 升维洞察", action: () => setStep(3) },
         { key: "github", label: "Open github.com/anagogesi", labelZh: "打开 GitHub 组织主页", action: () => window.open("https://github.com/anagogesi", "_blank", "noopener") }
       ];
 
